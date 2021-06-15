@@ -1,0 +1,1098 @@
+2021-05-28 05:53:48 Error: [Cake\Routing\Exception\MissingControllerException] Controller class ShootingRanking could not be found.
+Exception Attributes: array (
+  'class' => 'ShootingRanking',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /shooting-ranking
+Stack Trace:
+#0 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\webroot\index.php(40): Cake\Http\Server->run()
+#17 {main}
+
+
+2021-05-28 05:57:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class ShootingRanking could not be found.
+Exception Attributes: array (
+  'class' => 'ShootingRanking',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /shooting-ranking
+Stack Trace:
+#0 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(107): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\webroot\index.php(40): Cake\Http\Server->run()
+#17 {main}
+
+
+2021-05-29 04:32:07 Error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing CSRF token cookie
+Request URL: /shootingranking/setRanking
+Stack Trace:
+#0 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(119): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateToken(Object(Cake\Http\ServerRequest))
+#1 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(105): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateAndUnsetTokenField(Object(Cake\Http\ServerRequest))
+#2 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#3 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\webroot\index.php(40): Cake\Http\Server->run()
+#14 {main}
+
+
+2021-05-29 04:32:41 Error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing CSRF token cookie
+Request URL: /shootingranking/setRanking
+Stack Trace:
+#0 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(119): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateToken(Object(Cake\Http\ServerRequest))
+#1 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(105): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateAndUnsetTokenField(Object(Cake\Http\ServerRequest))
+#2 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#3 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\webroot\index.php(40): Cake\Http\Server->run()
+#14 {main}
+
+
+2021-05-29 04:33:08 Error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing CSRF token cookie
+Request URL: /shootingranking/setRanking
+Stack Trace:
+#0 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(119): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateToken(Object(Cake\Http\ServerRequest))
+#1 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(105): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateAndUnsetTokenField(Object(Cake\Http\ServerRequest))
+#2 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#3 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\webroot\index.php(40): Cake\Http\Server->run()
+#14 {main}
+
+
+2021-05-29 05:07:17 Error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing CSRF token cookie
+Request URL: /shootingranking/
+Stack Trace:
+#0 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(119): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateToken(Object(Cake\Http\ServerRequest))
+#1 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(105): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateAndUnsetTokenField(Object(Cake\Http\ServerRequest))
+#2 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#3 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\webroot\index.php(40): Cake\Http\Server->run()
+#14 {main}
+
+
+2021-05-29 05:07:54 Error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing CSRF token cookie
+Request URL: /shootingranking/setRanking
+Stack Trace:
+#0 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(119): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateToken(Object(Cake\Http\ServerRequest))
+#1 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(105): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateAndUnsetTokenField(Object(Cake\Http\ServerRequest))
+#2 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#3 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\webroot\index.php(40): Cake\Http\Server->run()
+#14 {main}
+
+
+2021-05-29 05:08:11 Error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing CSRF token cookie
+Request URL: /shootingranking/setRanking
+Stack Trace:
+#0 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(119): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateToken(Object(Cake\Http\ServerRequest))
+#1 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(105): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateAndUnsetTokenField(Object(Cake\Http\ServerRequest))
+#2 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#3 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\webroot\index.php(40): Cake\Http\Server->run()
+#14 {main}
+
+
+2021-05-29 05:12:21 Error: [Error] Call to a member function newEntity() on boolean
+Request URL: /shootingranking/setRanking
+Stack Trace:
+#0 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Controller\Controller.php(609): App\Controller\ShootingrankingController->setRanking()
+#1 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#2 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ShootingrankingController))
+#3 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\webroot\index.php(40): Cake\Http\Server->run()
+#16 {main}
+
+
+2021-05-29 05:12:22 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php line=853 in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 05:12:22 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 148]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 148
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 05:12:22 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 05:12:22 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 05:13:00 Error: [Error] Call to a member function newEntity() on boolean
+Request URL: /shootingranking/setRanking
+Stack Trace:
+#0 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Controller\Controller.php(609): App\Controller\ShootingrankingController->setRanking()
+#1 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#2 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ShootingrankingController))
+#3 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\webroot\index.php(40): Cake\Http\Server->run()
+#16 {main}
+
+
+2021-05-29 05:13:00 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php line=853 in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 05:13:00 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 148]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 148
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 05:13:01 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 05:13:01 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 08:24:25 Error: [Error] Call to a member function newEntity() on boolean
+Request URL: /shootingranking/setRanking
+Stack Trace:
+#0 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Controller\Controller.php(609): App\Controller\ShootingrankingController->setRanking()
+#1 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#2 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ShootingrankingController))
+#3 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\webroot\index.php(40): Cake\Http\Server->run()
+#16 {main}
+
+
+2021-05-29 08:24:52 Error: [Error] Call to a member function newEntity() on boolean
+Request URL: /shootingranking/setRanking
+Stack Trace:
+#0 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Controller\Controller.php(609): App\Controller\ShootingrankingController->setRanking()
+#1 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#2 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ShootingrankingController))
+#3 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\webroot\index.php(40): Cake\Http\Server->run()
+#16 {main}
+
+
+2021-05-29 08:25:07 Error: [Error] Call to a member function newEntity() on boolean
+Request URL: /shootingranking/setRanking
+Stack Trace:
+#0 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Controller\Controller.php(609): App\Controller\ShootingrankingController->setRanking()
+#1 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#2 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ShootingrankingController))
+#3 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\webroot\index.php(40): Cake\Http\Server->run()
+#16 {main}
+
+
+2021-05-29 08:26:38 Error: [Error] Call to a member function newEntity() on boolean
+Request URL: /shootingranking/setRanking
+Stack Trace:
+#0 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Controller\Controller.php(609): App\Controller\ShootingrankingController->setRanking()
+#1 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#2 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ShootingrankingController))
+#3 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\webroot\index.php(40): Cake\Http\Server->run()
+#16 {main}
+
+
+2021-05-29 11:28:16 Error: [Error] Call to a member function newEntity() on boolean
+Request URL: /shootingranking/setRanking
+Stack Trace:
+#0 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Controller\Controller.php(609): App\Controller\ShootingrankingController->setRanking()
+#1 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#2 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ShootingrankingController))
+#3 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\webroot\index.php(40): Cake\Http\Server->run()
+#16 {main}
+
+
+2021-05-29 11:28:17 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php line=853 in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 11:28:17 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 148]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 148
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 11:28:17 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 11:28:17 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 11:29:18 Error: [Error] Call to a member function newEntity() on boolean
+Request URL: /shootingranking/setRanking
+Stack Trace:
+#0 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Controller\Controller.php(609): App\Controller\ShootingrankingController->setRanking()
+#1 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#2 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ShootingrankingController))
+#3 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\webroot\index.php(40): Cake\Http\Server->run()
+#16 {main}
+
+
+2021-05-29 11:32:38 Error: [Error] Call to a member function newEntity() on boolean
+Request URL: /shootingranking/setRanking
+Stack Trace:
+#0 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Controller\Controller.php(609): App\Controller\ShootingrankingController->setRanking()
+#1 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#2 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ShootingrankingController))
+#3 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\webroot\index.php(40): Cake\Http\Server->run()
+#16 {main}
+
+
+2021-05-29 11:45:56 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php line=853 in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 11:45:56 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 148]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 148
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 11:45:56 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 11:45:56 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 11:46:13 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php line=853 in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 11:46:13 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 148]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 148
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 11:46:13 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 11:46:13 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 11:49:23 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php line=853 in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 11:49:23 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 148]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 148
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 11:49:23 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 11:49:23 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 12:06:09 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php line=853 in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 12:06:09 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 148]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 148
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 12:06:09 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 12:06:09 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 12:07:25 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php line=853 in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 12:07:25 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 148]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 148
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 12:07:25 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 12:07:25 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 12:09:05 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php line=853 in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 12:09:06 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 148]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 148
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 12:09:06 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 12:09:06 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 12:09:47 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php line=853 in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 12:09:47 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 148]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 148
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 12:09:47 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 12:09:47 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 12:10:05 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php line=853 in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 12:10:05 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 148]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 148
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 12:10:05 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 12:10:05 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 12:14:52 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php line=853 in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 12:14:52 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 148]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 148
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 12:14:52 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 12:14:52 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 12:16:42 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php line=853 in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 12:16:42 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 148]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 148
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 12:16:43 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 12:16:43 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 12:23:19 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php line=853 in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 12:23:19 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 148]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 148
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 12:23:19 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 12:23:19 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Debugger.php:853) in [C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /shootingranking/setRanking
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 42
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 141
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2021-05-29 12:44:05 Error: [Error] Call to a member function order() on null
+Request URL: /shootingranking
+Stack Trace:
+#0 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Controller\Controller.php(609): App\Controller\ShootingrankingController->index()
+#1 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#2 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ShootingrankingController))
+#3 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(156): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(98): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Tech Stadium\ts_un_stu_202104.git\Task_nakamura\htdocs\shootingrankingsystemAPI\webroot\index.php(40): Cake\Http\Server->run()
+#16 {main}
+
+
